@@ -15,6 +15,7 @@ actions:
       value: logstash-
       exclude:
     - filtertype: space
+      # Assuming Cluster is 1 TB (1000 GB) in size
       disk_space: 800
       use_age: True
       source: creation_date
